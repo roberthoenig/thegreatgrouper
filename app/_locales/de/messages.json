@@ -1,0 +1,115 @@
+{
+  "appName": {
+    "message": "Der Grosse Gruppierer",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Siehst du vor lauter offener Tabs deinen Browser nicht mehr? Kein Problem! Mit dieser Erweiterung kannst du sie leicht gruppieren und wiederherstellen, wann immer du willst.",
+    "description": "The description of the application"
+  },
+  "popupPage" : {
+  	"message": "popup.html"
+  },
+  "welcomePage": {
+  	"message": "welcome.html"
+  },
+  "optionsPage": {
+  	"message": "options.html"
+  },
+  "optionsContextMenu": {
+  	"message": "Einstellungen"
+  },
+  "optionsPageSaved": {
+  	"message": "Einstellungen gespeichert."
+  },
+  "bookmarkTitle": {
+  	"message": "Der Grosse Gruppierer"
+  },
+  "popupRemoveGroupButton": {
+  	"message": "Gruppe löschen"
+  },
+    "optionsTitle": {
+    "message": "Der Grosse Gruppierer Einstellungen"
+  },
+  "optionsHeading1": {
+    "message": "Der Grosse Gruppierer Einstellungen"
+  },
+  "optionsHeading2": {
+    "message":"Standard-Einstellungen"
+  },
+  "optionsLabelTitle1": {
+    "message": "Konservierung"
+  },
+  "optionsLabel1": {
+    "message": "Inhalt des Tabs speichern (benötigt SingleFile Core)" 
+  },
+  "optionsLabel2": {
+    "message": "Tabs nach Konservierung schliessen"
+  },
+  "optionsLabelTitle2": {
+    "message": "Wiederherstellung"
+  },
+  "optionsLabel3": {
+    "message": "Gespeicherte Version des Tabs öffnen, falls verfügbar (benötigt SingleFile Core)"
+  },
+  "optionsLabel4": {
+    "message": "Tabs in neuem Fenster öffnen"
+  },
+  "optionsSave": {
+    "message": "Speichern"
+  },
+  "hovertextIncludeTab": {
+    "message": "Tab in Gruppe einbinden"
+  },
+  "popupTitle": {
+    "message": "Speicher die Tabs!"
+  },
+  "popupInputText": {
+    "message": "Tabs in einer Gruppe speichern (Shift - gespeicherte Tabs schliessen)"
+  },
+  "popupHovertextButtonConserve": {
+    "message": "Gruppe konservieren"
+  },
+  "popupTextRestore": {
+    "message": "Stelle eine Gruppe wieder her, indem du auf sie klickst (Shift - Wiederherstellung in aktuellem Fenster)"
+  },
+  "popupButtonRemove": {
+    "message": "Gruppe löschen"
+  },
+  "welcomeHeader1": {
+    "message": "Sei stolz auf dich!"
+  },
+  "welcomeThankText": {
+    "message": "Schliesslich hast du diese nützliche Erweiterung installiert, die dein künftiges Browser-Leben stark vereinfachen wird :)"
+  },
+  "welcomeHeader2One": {
+    "message": "Überblick"
+  },
+  "welcomeHeader2Two": {
+    "message": "Einbringung"
+  },
+  "welcomeHeader4": {
+    "message": "Was kannst du tun?"
+  },
+  "welcomeRequestText": {
+    "message": "Verbreite die Kunde, sodass mehr Menschen von dieser Erweiterung wissen ;)"
+  },
+  "welcomeRequestTextGithub": {
+    "message": "Entwickle und erweitere die Erweiterung unter "
+  },
+  "missingcoreTitle": {
+    "message": "Der Grosse Gruppierer Info"
+  },
+  "missingcoreInfoHovertext": {
+    "message": "Der Grosse Gruppierer Info"
+  },
+  "missingcoreWarningText": {
+    "message": "Bitte installiere <b><a id=\"singlefile-core-link\" href=\"https://chrome.google.com/webstore/detail/jemlklgaibiijojffihnhieihhagocma\">SingleFile Core Erweiterung</a></b>, um die Inhalts-Speicherungsfunktion von Der Grosse Gruppierer nutzen zu können."
+  },
+  "welcomeTitle": {
+    "message": "Der Grosse Gruppierer"
+  },
+  "welcomeImage": {
+    "message": "images/overview_de.png"
+  }
+}

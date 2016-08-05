@@ -5,4 +5,5 @@ temp
 app/bower_components
 test/bower_components
 package
+dist/build
 

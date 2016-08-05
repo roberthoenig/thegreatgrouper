@@ -25,6 +25,7 @@ If you have suggestions or problems using the extension, please [submit a bug or
 ####How to contribute
 Clone the repository and make contributions directly to the source files in the *app* folder.
 ####How to build
+*the gulp file is currently broken! until it is fixed, please move the files manually to the dist directory or work in there directly*
 Install [gulp](http://gulpjs.com/) on your system.
 In the main directory, do `gulp build`.
 The *dist* directory now contains the unpacked chrome extension.
@@ -32,3 +33,4 @@ The *dist* directory now contains the unpacked chrome extension.
 ### Shoutouts
 This package uses the w3-css webdesigns from W3schools: 
 http://www.w3schools.com/w3css/
+This package uses code from the SingleFile-Extension, some features depend on SingleFile Core. Big thank you for that! :)

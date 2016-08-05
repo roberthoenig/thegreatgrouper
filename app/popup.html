@@ -6,9 +6,11 @@
  -->
 <html>
   <head>
-    <title>Conserve them!</title>
+    <title>__MSG_popupTitle__</title>
     <link rel="stylesheet" href="styles/w3.css">
     <link rel="stylesheet" href="styles/popup.css">
+    <script src="scripts/jquery/jquery-3.1.0.min.js"></script>
+    <script src="scripts/localize.js"></script>
     <script src="scripts/popup.js"></script>
   </head>
 	
@@ -19,18 +21,18 @@
 					<div id="tab_selection_container" class="w3-border-right w3-border-black">
 						<div style="display:flex" id="input_container">
 							<input class="name-input w3-input" type="text" id="group_name" value="Group 1">
-							<button type="button" title="Store Tabs in Group (Shift - Close Tabs as well)" id="conserve_tabs" tabindex="-1" class="w3-btn w3-ripple w3-green w3-hover-light-grey conserve-button w3-button"><img src="images/icon256.png" alt="Conserve group" class="icon"/></button>
+							<button type="button" title="__MSG_popupInputText__" id="conserve_tabs" tabindex="-1" class="w3-btn w3-ripple w3-green w3-hover-light-grey conserve-button w3-button"><img src="images/icon256.png" alt="__MSG_popupHovertextButtonConserve__" class="icon"/></button>
 						</div>
 					</div>
 				</div>
 				<!--Right menu to restore group-->
-				<div class="menu w3-light-grey"  title="Restore a Group by clicking on it (Shift restores in current Window)">
+				<div class="menu w3-light-grey"  title="__MSG_popupTextRestore__">
 					<img id="placeholder_img" class="placeholder-img" src="images/unpack.png">
 					</img>
 				 <div id="groups">
 					 <div id="group" class = "w3-btn-group" style="display:none !important;">
 						 <button type="button" class="w3-btn w3-hover-white w3-light-grey button-conserve button w3-border-top w3-border-black"><div class="buttontext horizontal">Dummy conservation</div></button>
-						 <button type="button" class="w3-btn w3-hover-red w3-grey button-remove button w3-border-top w3-border-black"><img src="images/bin.png" alt="Remove group" class="icon"/></button>
+						 <button type="button" class="w3-btn w3-hover-red w3-grey button-remove button w3-border-top w3-border-black"><img src="images/bin.png" alt="__MSG_popupButtonRemove__" class="icon"/></button>
 					 </div>
 					 <div id="groups_container">
 					 </div>

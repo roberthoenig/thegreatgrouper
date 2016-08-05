@@ -1,1 +1,31 @@
-<style type="css"></style><div style="display: inline"><img style="display: inline" src="images/icon64.png"><h1 style="display: inline">Be Proud of Yourself!</h1><img style="display: inline" src="images/icon64.png"></div><br><br>For installing this nifty little tool, which will make your browser-life a lot easier!<h2>Overview</h2><img src="images/overview.png"><h2>Contributions</h2><h4>What can you do?</h4>Spread the word, so that more people know of this extension :)<br>Be part of its further development on <a href="https://github.com/derAnfaenger/thegreatgrouper">Github</a>.
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+	<head>
+	<title>__MSG_welcomeTitle__</title>
+	</head>
+
+	<body>
+		<div style="display: inline">
+			<img style="display: inline" src="images/icon64.png"></img>
+			<h1 style="display: inline">__MSG_welcomeHeader1__</h1>
+			<img style="display: inline" src="images/icon64.png"></img>
+		</div>
+		<br/>
+		<br/>
+		__MSG_welcomeThankText__
+		<h2>__MSG_welcomeHeader2One__</h2>
+		<img src="__MSG_welcomeImage__" width="50%" height="50%"/>
+		<h2>__MSG_welcomeHeader2Two__</h2>
+		<h4>__MSG_welcomeHeader4__</h4>
+		__MSG_welcomeRequestText__</br>
+		__MSG_welcomeRequestTextGithub__<a href="https://github.com/derAnfaenger/thegreatgrouper">Github</a>
+		</br>
+		<script src="scripts/localize.js"></script>
+		<script src="scripts/welcome.js"></script>
+	</body>
+</html>

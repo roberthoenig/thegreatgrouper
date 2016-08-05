@@ -6,5 +6,101 @@
   "appDescription": {
     "message": "Flooded with tabs? Store them easily into groups, reopen them whenever you feel like it.",
     "description": "The description of the application"
+  },
+  "optionsContextMenu": {
+  	"message": "Options"
+  },
+  "optionsPageSaved": {
+  	"message": "Options saved."
+  },
+  "bookmarkTitle": {
+  	"message": "The Great Grouper"
+  },
+  "popupRemoveGroupButton": {
+  	"message": "Remove Group"
+  },
+  "optionsTitle": {
+    "message": "The Great Grouper Options"
+  },
+  "optionsHeading1": {
+    "message": "The Great Grouper Options"
+  },
+  "optionsHeading2": {
+    "message": "Default Options"
+  },
+  "optionsLabelTitle1": {
+    "message": "Storing Options"
+  },
+  "optionsLabel1": {
+    "message": "Store Content of Tabs (SingleFile Core required)" 
+  },
+  "optionsLabel2": {
+    "message": "Close Tabs when Stored"
+  },
+  "optionsLabelTitle2": {
+    "message": "Restoring Options"
+  },
+  "optionsLabel3": {
+    "message": "Open Stored Content Version of Tabs, if Available (SingleFile Core required)"
+  },
+  "optionsLabel4": {
+    "message": "Open Tabs in New Window"
+  },
+  "optionsSave": {
+    "message": "Save"
+  },
+  "hovertextIncludeTab": {
+    "message": "Include Tab in Group"
+  },
+  "popupTitle": {
+    "message": "Conserve them!"
+  },
+  "popupInputText": {
+    "message": "Store Tabs in Group (Shift - Close Tabs as well)"
+  },
+  "popupHovertextButtonConserve": {
+    "message": "Conserve Group"
+  },
+  "popupTextRestore": {
+    "message": "Restore a Group by clicking on it (Shift restores in current Window)"
+  },
+  "popupButtonRemove": {
+    "message": "Remove group"
+  },
+  "welcomeHeader1": {
+    "message": "Be Proud of Yourself!"
+  },
+  "welcomeThankText": {
+    "message": "For installing this nifty little tool, which will make your browser-life a lot easier!"
+  },
+  "welcomeHeader2One": {
+    "message": "Overview"
+  },
+  "welcomeHeader2Two": {
+    "message": "Contributions"
+  },
+  "welcomeHeader4": {
+    "message": "What can you do?"
+  },
+  "welcomeRequestText": {
+    "message": "Spread the word, so that more people know of this extension :)"
+  },
+  "welcomeRequestTextGithub": {
+    "message": "Be part of its further development on "
+  },
+  "missingcoreTitle": {
+    "message": "The Great Grouper Info"
+  },
+  "missingcoreInfoHovertext": {
+    "message": "The Great Grouper Info"
+  },
+  "missingcoreWarningText": {
+    "message": "Please install <b><a id=\"singlefile-core-link\" href=\"https://chrome.google.com/webstore/detail/jemlklgaibiijojffihnhieihhagocma\">SingleFile Core extension</a></b> to use the content storing options."
+  },
+  "welcomeTitle": {
+    "message": "The Great Grouper"
+  },
+  "welcomeImage": {
+    "message": "images/overview_en.png"
   }
 }

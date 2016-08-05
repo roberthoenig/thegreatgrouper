@@ -1,8 +1,9 @@
 {
   "name": "__MSG_appName__",
-  "version": "1.0",
+  "version": "2.0",
   "manifest_version": 2,
-  "description": "__MSG_appDescription__",
+  "default_locale": "en",
+  "description":  "__MSG_appDescription__",
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
@@ -11,23 +12,30 @@
     "128": "images/icon128.png",
     "256": "images/icon256.png"
   },
-  "default_locale": "en",
   "background": {
     "scripts": [
       "scripts/popup.js",
-      "scripts/background.js"
+      "scripts/background.js",
+
+      "scripts/ui/bg/index.js",
+      "scripts/ui/bg/config.js",
+      "scripts/ui/bg/background.js"
     ]
   },
   "permissions": [
     "tabs",
     "storage",
     "unlimitedStorage",
-    "<all_urls>"
+    "<all_urls>",
+    "contextMenus",
+    "http://*/*", "https://*/*",
+    "bookmarks",
+    "management"
   ],
   "browser_action": {
     "default_icon": "images/icon256.png",
     "default_popup": "popup.html",
-    "default_title": "The Great Grouper"
+    "default_title": "__MSG_appName__"
   },
   "commands": {
      "_execute_browser_action": {
@@ -38,5 +46,6 @@
             "linux": "Ctrl+B"
         }
      }
-  }
+  },
+  "options_page": "options.html"
 }
